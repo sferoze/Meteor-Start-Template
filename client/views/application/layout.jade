@@ -1,0 +1,22 @@
+template(name='layout')
+  +header
+  +flashMessages
+  +page
+
+  
+template(name='layoutLoggedOut')
+  +headerLoggedOut
+  .container-fluid
+    +flashMessages
+    +yield
+
+template(name='page')
+  #wrapper
+    +sidebar
+    #page-content-wrapper
+      .container-fluid
+        .row
+          .col-lg-12
+            +yield
+
+

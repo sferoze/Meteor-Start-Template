@@ -1,0 +1,1 @@
+#Template.login.rendered = ->

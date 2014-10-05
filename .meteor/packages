@@ -1,0 +1,28 @@
+# Meteor packages used by this project, one per line.
+#
+# 'meteor add' and 'meteor remove' will edit this file for you,
+# but you can also edit it by hand.
+
+meteor-platform
+insecure
+sacha:spin@2.0.4
+coffeescript
+stylus
+natestrauser:font-awesome
+accounts-password
+mrt:jquery-ui
+http
+mrt:moment
+jquery
+mrt:jquery-ui-bootstrap
+mrt:flash-messages
+rajit:accounts-ui-bootstrap-3
+mizzao:bootstrap-3
+mquandalle:jade
+mizzao:user-status
+iron:router
+mizzao:autocomplete
+meteorhacks:npm
+
+
+npm-container
